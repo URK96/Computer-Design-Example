@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon May 18 23:52:50 2020
+# Process ID: 22704
+# Current directory: C:/Users/chlwl/Desktop/MultiCycle_MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10096 C:\Users\chlwl\Desktop\MultiCycle_MIPS\MultiCycle_MIPS.xpr
+# Log file: C:/Users/chlwl/Desktop/MultiCycle_MIPS/vivado.log
+# Journal file: C:/Users/chlwl/Desktop/MultiCycle_MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chlwl/Desktop/MultiCycle_MIPS/MultiCycle_MIPS.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Xilinx/Project/MultiCycle_MIPS' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 848.203 ; gain = 248.137
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Tue May 19 01:50:42 2020] Launched synth_1...
+Run output will be captured here: C:/Users/chlwl/Desktop/MultiCycle_MIPS/MultiCycle_MIPS.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1165.191 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 115 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1245.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 98 instances were transformed.
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 2 instances
+  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 64 instances
+
+open_run: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 1384.102 ; gain = 469.832

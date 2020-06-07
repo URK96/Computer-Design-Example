@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MultiCycle_MIPS.srcs/sources_1/imports/MultiCycle_MIPS/RegFile.v" \
+"../../../../MultiCycle_MIPS.srcs/sources_1/imports/MultiCycle_MIPS/etc_module.v" \
+"../../../../MultiCycle_MIPS.srcs/sources_1/imports/MultiCycle_MIPS/DataMemory.v" \
+"../../../../MultiCycle_MIPS.srcs/sources_1/imports/MultiCycle_MIPS/controller.v" \
+"../../../../MultiCycle_MIPS.srcs/sources_1/imports/MultiCycle_MIPS/ALUControl.v" \
+"../../../../MultiCycle_MIPS.srcs/sources_1/imports/MultiCycle_MIPS/ALU.v" \
+"../../../../MultiCycle_MIPS.srcs/sources_1/imports/MultiCycle_MIPS/MultiCycle_MIPS_TOP.v" \
+"../../../../MultiCycle_MIPS.srcs/sim_1/imports/MultiCycle_MIPS/tb_top_MultiCycle_MIPS.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,33 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 58331d755600449babcb991b7c2de2a3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Pipelined_MIPS_TOP_behav xil_defaultlib.tb_Pipelined_MIPS_TOP xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'Dst_WB' [C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/Pipelined_MIPS_TOP.v:48]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'WriteRegister' [C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IDECODE.v:17]
+WARNING: [VRFC 10-5021] port 'clk' is not connected on this instance [C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IDECODE.v:16]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mux32bit_2to1
+Compiling module xil_defaultlib.Adder_32Bit
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.IFETCH
+Compiling module xil_defaultlib.Registers
+Compiling module xil_defaultlib.Sign_Extend
+Compiling module xil_defaultlib.IDECODE
+Compiling module xil_defaultlib.CONTROL
+Compiling module xil_defaultlib.Mux5bit_2to1
+Compiling module xil_defaultlib.Shift_Left_2Bit
+Compiling module xil_defaultlib.ALU_Control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXECUTE
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.DMEMORY
+Compiling module xil_defaultlib.Pipelined_MIPS_TOP
+Compiling module xil_defaultlib.tb_Pipelined_MIPS_TOP
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_Pipelined_MIPS_TOP_behav

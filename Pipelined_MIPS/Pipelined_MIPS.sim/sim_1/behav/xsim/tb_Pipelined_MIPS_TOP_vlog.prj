@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/etc_module.v" \
+"../../../../Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IFETCH.v" \
+"../../../../Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IDECODE.v" \
+"../../../../Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/EXECUTE.v" \
+"../../../../Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/DMEMORY.v" \
+"../../../../Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/CONTROL.v" \
+"../../../../Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/Pipelined_MIPS_TOP.v" \
+"../../../../Pipelined_MIPS.srcs/sim_1/imports/Pipelined_MIPS/tb_Pipelined_MIPS_TOP.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sim_1/imports/Pipelined_MIPS/tb_Pipelined_MIPS_TOP.v,1591120918,verilog,,,,tb_Pipelined_MIPS_TOP,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/CONTROL.v,1591117869,verilog,,C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/Pipelined_MIPS_TOP.v,,CONTROL,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/DMEMORY.v,1591097087,verilog,,C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/CONTROL.v,,DMEMORY;DataMemory,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/EXECUTE.v,1591124041,verilog,,C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/DMEMORY.v,,ALU;ALU_Control;EXECUTE,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IDECODE.v,1591125296,verilog,,C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/EXECUTE.v,,IDECODE;Registers,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IFETCH.v,1329283568,verilog,,C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IDECODE.v,,IFETCH,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/Pipelined_MIPS_TOP.v,1591124344,verilog,,C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sim_1/imports/Pipelined_MIPS/tb_Pipelined_MIPS_TOP.v,,Pipelined_MIPS_TOP,,,,,,,,
+C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/etc_module.v,1591124703,verilog,,C:/Users/chlwl/Desktop/Pipelined_MIPS/Pipelined_MIPS.srcs/sources_1/imports/Pipelined_MIPS/IFETCH.v,,Adder_32Bit;InstructionMemory;Mux32bit_2to1;Mux5bit_2to1;Shift_Left_2Bit;Sign_Extend,,,,,,,,
